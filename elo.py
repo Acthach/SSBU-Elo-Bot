@@ -12,9 +12,24 @@ class Implementation:
         self.players = []
 
     #get player list
+    def get_player_list(self):
+        return self.players
+
     #get specific player
+    def get_player(self, name):
+        for player in self.players:
+            if player.name == name:
+                return player
+        return None
+   
     #addplayer
+    def add_player(self, name):
+        self.players.append(player(name))
+
+
     #remove player
     #record match
+    #def record_match(self, player1, player2, result):
     #get player rating
     #get rating list
+    
