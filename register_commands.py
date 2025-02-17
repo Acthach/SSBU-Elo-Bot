@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
-TOKEN ='MTM0MDUzMzI5OTQ1MzQ5NzM5NA.GlS_fa.BYJFUbPcxIZwqztyuh6GRldURsb1pvYyx67JkE'
-Channel_ID = '1340551594697297930'
+TOKEN =''
+Channel_ID = ''
 intents = discord.Intents.default()
 intents.members = True
 intents.message_content = True
